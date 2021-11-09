@@ -14,7 +14,7 @@ SELECT * FROM employee
 WHERE first_name = 'Nancy' AND last_name = 'Edwards';   --- ID 2
 
 SELECT * FROM employee
-WHERE reprots_to = 2;
+WHERE reports_to = 2;
 
 -- Count how many people live in Lethbridge
 SELECT city, Count(*) FROM employee
